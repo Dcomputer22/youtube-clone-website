@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="">
+      </div>
+      <div class="middle-section">
+        <input type="search" name="search-bar" class="search-bar" placeholder="Search">
+        <button
+        class="search-button">
+          <img
+          class="search-icon"
+           src="icons/search.svg" alt="">
+           <div class="tooltip">Search</div>
+        </button>
+        <!--Put position absolute inside position relative-->
+        <button
+        class="voice-search-button">
+          <img
+          class="voice-search-icon"
+           src="icons/voice-search-icon.svg" alt="">
+           <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="">
+          <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" alt="">
+          <div class="notifications-count">3+</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/channels-profile.jpg" alt="">
+      </div>
+    </header>
+    <div class="sub-header">
+      <button>All</button>
+      <button>Computer Programming</button>
+      <button>Got Talent</button>
+      <button>Steve Harvey</button>
+      <button>Ted</button>
+      <button>Python</button>
+      <button>Nollywood</button>
+      <button>Thoughts</button>
+      <button>Sketched Comedy</button>
+      <button>Live</button>
+      <button>
+        <img class="pointer" src="icons/next-pointer.svg" alt="">
+      </button>
+    </div>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg" alt="">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscription.svg" alt="">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/you.svg" alt="">
+        <div>You</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Fhe0advzlzo" target="_blank">
+              <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="youtube-thumbnail1">
+              <div class="video-time">12:09</div>
+            </a>
+          </div>
+            <div class="video-info-grid">
+              <a href="https://www.youtube.com/watch?v=Fhe0advzlzo" target="_blank">
+                <div class="channel-picture-container">
+                <div class="channel-picture">
+                  <img class="profile-picture" src="channel-pictures/channel-1.jpg" alt="" />
+                  </div>
+                  <div class="description">
+                    <div class="profile-picture">
+                      <img class="profile-picture" src="channel-pictures/channel-1.jpg" alt="">
+                    </div>
+                    <div class="description-info">
+                      <p class="video-author">
+                        Launch TO Wealth TV 
+                      </p>
+                      <p class="subscribers">
+                        496K subscribers
+                      </p>
+                    </div>
+                  </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                10 Small Business Ideas YOU can start under $100 As A WOMAN (Make Mon...)
+              </p>
+              <p class="video-author">
+                Lauch TO Wealth TV 
+              </p>
+              <p class="video-stats">
+                916K views  &#183; 5 months ago
+              </p>
+            </div>
+          </a>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtube.com/watch?v=36m1o-tM05g">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp" alt="youtube-thumbnail1">
+            <div class="video-time">12:45</div>
+            </a>
+          </div>
+          <div class="video-info-grid">  
+            <a href="https://youtube.com/watch?v=36m1o-tM05g" target="_blank"> 
+              <div class="channel-picture-container">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channels-2.jpg" alt="">
+              </div>
+                <div class="description">
+                  <div class="profile-picture">
+                    <img class="profile-picture" src="channel-pictures/channels-2.jpg" alt="">
+                  </div>
+                  <div class="description-info">
+                    <p class="video-author">
+                      TEDx Talks 
+                    </p>
+                    <p class="subscribers">
+                      40.7M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                My philosophy for a happy life | Sam Berns | TEDXMidAtlantic
+              </p>
+          <p class="video-author">
+            TEDx Talks
+          </p>
+          <p class="video-stats">
+            53M views &#183; 10 years ago
+          </p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtube.com/watch?v=b0stBgU7FAk" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp" alt="youtube-thumbnail1">
+            <div class="video-time">14:01</div>
+            </a>
+          </div>
+            <div class="video-info-grid">
+              <a href="https://youtube.com/watch?v=b0stBgU7FAk" target="_blank">
+                <div class="channel-picture-container">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channels-3.jpg" alt="">
+              </div>
+                <div class="description">
+                  <div class="profile-picture">
+                    <img class="profile-picture" src="channel-pictures/channels-3.jpg" alt="">
+                  </div>
+                  <div class="description-info">
+                    <p class="video-author">
+                      wapTVchannel 
+                    </p>
+                    <p class="subscribers">
+                      701K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                Akpan and Oduma 'Barrister Patoski'
+              </p>
+              <p class="video-author">
+                wapTVchannel 
+              </p>
+              <p class="video-stats">
+                426K views  &#183; 5 months ago
+              </p>
+            </div>
+            </a>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtube.com/watch?v=k4szRq1R-08" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp" alt="youtube-thumbnail1">
+            <div class="video-time">22:09</div>
+            </a>
+          </div>   
+          <div class="video-info-grid">
+            <a href="https://youtube.com/watch?v=k4szRq1R-08" target="_blank">
+              <div class="channel-picture-container">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channels-4.jpg" alt="">
+              </div>
+                <div class="description">
+                  <div class="profile-picture">
+                    <img class="profile-picture" src="channel-pictures/channels-4.jpg" alt="">
+                  </div>
+                  <div class="description-info">
+                    <p class="video-author">
+                      America's Got Talent 
+                    </p>
+                    <p class="subscribers">
+                      27.8M subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                This contestant WON'T give up! | Josh Alfred auditions THREE times in one day | Auditions | AGT 2023
+              </p>
+          <p class="video-author">
+            America's Got Talent
+          </p>
+          <p class="video-stats">
+            5.2M views &#183; 9 months ago
+          </p>
+            </div>
+            </a>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtube.com/watch?v=wrTKHijNxsU" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp" alt="youtube-thumbnail1">
+            <div class="video-time">7:30</div>
+            </a>
+          </div>
+            <div class="video-info-grid">
+              <a href="https://youtube.com/watch?v=wrTKHijNxsU" target="_blank">
+                <div class="channel-picture-container">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-5.jpg" alt="">
+              </div>
+                <div class="description">
+                  <div class="profile-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-5.jpg" alt="">
+                  </div>
+                  <div class="description-info">
+                    <p class="video-author">
+                      Best Little Big Shots 
+                    </p>
+                    <p class="subscribers">
+                      169K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                Child Piano Prodigy Evan Le
+              </p>
+              <p class="video-author">
+                Best Little Big Shots
+              </p>
+              <p class="video-stats">
+                5.5M views  &#183; 1 year ago
+              </p>
+            </div>
+              </a>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://youtube.com/watch?v=G3e-cpL7ofc&t=21913s" target="_blank">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp" alt="youtube-thumbnail1">
+            <div class="video-time">6:31:24</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <a href="https://youtube.com/watch?v=G3e-cpL7ofc&t=21913s" target="_blank">
+              <div class="channel-picture-container">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channels-6.jpg" alt="">
+              </div>
+                <div class="description">
+                  <div class="profile-picture">
+                    <img class="profile-picture" src="channel-pictures/channels-6.jpg" alt="">
+                  </div>
+                  <div class="description-info">
+                    <p class="video-author">
+                      SuperSimpleDev
+                    </p>
+                    <p class="subscribers">
+                      433K subscribers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            <div class="video-info">
+              <p class="video-title">
+                HTML & CSS Full Course - Beginner to Pro
+              </p>
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+          <p class="video-stats">
+            9.9M views &#183; 2 years ago
+          </p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
